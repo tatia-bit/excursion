@@ -1,30 +1,26 @@
-/* General page styling */
 body {
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-family: Verdana, sans-serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Verdana, sans-serif;
 }
 
-/* Styling the "Download" link */
-.download-link {
-    color: aquamarine;
-    font-size: 16px;
-}
-
-/* Heading styles */
 h1 {
-    font-weight: normal;
-    font-size: 50px;
+  font-weight: normal;
+  font-size: 50px;
 }
 
 h2 {
-    font-weight: 300;
-    font-size: 42px;
+  font-weight: 300;
+  font-size: 42px;
 }
 
-/* Ensuring images and videos don't overflow */
+.download-link {
+  color: aquamarine;
+  font-size: 16px;
+}
+
+/* This makes sure images/videos don't get too big on small screens */
 video, img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
 }
